@@ -34,6 +34,13 @@ h1#title {
   color: var(--blue-color);
 }
 
+h2#date {
+  font-size: 1.8em;
+  font-weight: normal;
+  font-family: monospace;
+  margin: 0;
+}
+
 img#logo {
   width: 18em;
   margin: 6em;
@@ -66,6 +73,7 @@ form#mc-embedded-subscribe-form div.mc-field-group label {
 
 form#mc-embedded-subscribe-form div.mc-field-group input#mce-EMAIL {
   padding: 1em;
+  font-size: 0.9em;
   min-width: 28em;
   border-radius: 1em 0 0 1em;
   border-style: none;
@@ -81,6 +89,7 @@ form#mc-embedded-subscribe-form div.mc-field-group input#mc-embedded-subscribe {
   background: var(--blue-color);
   color: white;
   padding: 1em;
+  font-size: 0.9em;
 }
 
 div#footer {
@@ -110,12 +119,24 @@ div#footer a {
     margin: 0;
   }
 
+  h2#date {
+    margin-top: 0.5em;
+  }
+
   p#cta-message {
-    margin: 2em 0 2em;
+    font-size: 1.25em;
+    margin: 2.5em 0 2em;
   }
 
   form#mc-embedded-subscribe-form div.mc-field-group input#mce-EMAIL {
     min-width: 20em;
+    font-size: 0.7em;
+  }
+
+  form#mc-embedded-subscribe-form
+    div.mc-field-group
+    input#mc-embedded-subscribe {
+    font-size: 0.7em;
   }
 
   div#footer a {
