@@ -1,0 +1,116 @@
+:root {
+  --dark-color: rgb(12, 12, 13);
+  --blue-color: rgb(31, 68, 174);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: white;
+  color: var(--dark-color);
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+div#banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1#title {
+  font-size: 3em;
+  margin-top: 0;
+  color: var(--blue-color);
+}
+
+img#logo {
+  width: 18em;
+  margin: 6em;
+  margin-bottom: 1em;
+}
+
+div#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p#cta-message {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 4em 0 2em;
+}
+
+form#mc-embedded-subscribe-form div.mc-field-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form#mc-embedded-subscribe-form div.mc-field-group label {
+  display: none;
+}
+
+form#mc-embedded-subscribe-form div.mc-field-group input#mce-EMAIL {
+  padding: 1em;
+  min-width: 28em;
+  border-radius: 1em 0 0 1em;
+  border-style: none;
+  border: 1px solid var(--blue-color);
+  outline: none;
+}
+
+form#mc-embedded-subscribe-form div.mc-field-group input#mc-embedded-subscribe {
+  border-style: none;
+  outline: none;
+  border: 1px solid var(--blue-color);
+  border-radius: 0 1em 1em 0;
+  background: var(--blue-color);
+  color: white;
+  padding: 1em;
+}
+
+div#footer {
+  position: fixed;
+  bottom: 0;
+  height: 5em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+div#footer a {
+  font-size: 1.4em;
+  margin: 0 1em;
+}
+/* 
+@media screen and (max-width: 768px) {
+  div#banner {
+    flex-direction: column;
+  }
+
+  h1#title {
+    margin: 0;
+    font-size: 4em;
+  }
+
+  img#logo {
+    width: 10em;
+    margin: 2em;
+    margin-top: -10em;
+  }
+} */
